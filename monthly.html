@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Expense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-mesh"></div>
+    <canvas id="stars"></canvas>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <div class="toast-container" id="toastContainer"></div>
+
+    <header class="site-header">
+        <h1>📅 <span class="title-text">Monthly View</span></h1>
+        <p class="subtitle">Day-by-Day Breakdown</p>
+    </header>
+
+    <nav>
+        <a href="/">⬅ Back to Dashboard</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h3><span class="icon">🗓️</span> Date-wise Expenses</h3>
+            <div id="monthlyList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
